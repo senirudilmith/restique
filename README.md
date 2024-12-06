@@ -40,12 +40,19 @@ This repository presents the final implementation of a Convolutional Neural Netw
 - **Clinical Utility**: Supports clinicians in diagnosing sleep disorders through precise stage classification.
 - **Consumer Integration**: Adaptable for wearable devices to provide personalized sleep insights and data visualization.
 
-## Dataset and Training
+## Dataset Details
 
-- **Data Source**: Based on the Human Sleep Project dataset, annotated by certified polysomnography technicians.
-- **Training Pipeline**:
-  - Dataset split: 80% for training, 20% for testing.
-  - Data preprocessing: Feature normalization and one-hot encoding for robust model performance.
+- **Dataset Source**: Human Sleep Project dataset, containing polysomnography (PSG) recordings from 200 individuals.
+- **Electrode Signals Used**: F3 and F4 EEG signals were utilized, focusing on brainwave activity for sleep stage classification.
+- **Features Extracted**: A total of 57 statistical and frequency-domain features were extracted from EEG signals, including:
+  - Power spectral density (PSD) across delta, theta, alpha, beta, and gamma bands.
+  - Time-domain features such as mean, variance, skewness, and kurtosis.
+  - Non-linear features, including approximate entropy and Hjorth parameters.
+- **Annotations**: Sleep stages were labeled in accordance with the American Academy of Sleep Medicine (AASM) guidelines, covering five stages:
+  - Wake (W), NREM1 (N1), NREM2 (N2), NREM3 (N3), and REM (R).
+- **Data Splitting**:
+  - 80% of the data was used for training, and 20% for testing.
+  - Stratified splitting ensured balanced representation across all sleep stages.
 
 ## License
 
