@@ -12,6 +12,7 @@ This repository presents the final implementation of a Convolutional Neural Netw
   - **Softmax Output Layer**: Generates a probability distribution over five sleep stages (Wake, NREM1, NREM2, NREM3, REM).
   
 ![Neural Network Architecture](https://github.com/user-attachments/assets/c3cee55b-d128-473d-aba2-aac7950856c3)
+
 *Figure 1: Neural network architecture for EEG-based sleep stage classification. This diagram illustrates the dual-channel input, convolutional layers, and output classifications.*
 
 ## Results and Performance
