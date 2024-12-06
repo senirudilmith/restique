@@ -10,6 +10,7 @@ This repository presents the final implementation of a Convolutional Neural Netw
   - **Global Max Pooling**: Retains the most prominent activations for each feature map, reducing dimensionality.
   - **Dense Layers**: Fully connected layers with 768 and 384 units, Batch Normalization, LeakyReLU activations, and Dropout (0.4) for improved generalization.
   - **Softmax Output Layer**: Generates a probability distribution over five sleep stages (Wake, NREM1, NREM2, NREM3, REM).
+  ![Neural Network Architecture](https://github.com/user-attachments/assets/c3cee55b-d128-473d-aba2-aac7950856c3)
 
 ## Results and Performance
 
