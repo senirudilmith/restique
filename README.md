@@ -23,6 +23,7 @@ This repository presents the final implementation of a Convolutional Neural Netw
 - **Model Robustness**: The confusion matrix reveals minimal misclassifications, particularly in adjacent sleep stages, underscoring the model’s reliability.
 
 ![cm](https://github.com/user-attachments/assets/2e731bd4-4d98-4ba5-ae0e-08fd3fce184b)
+<br>
 *Figure 2: Normalized confusion matrix for sleep stage classification. This matrix highlights classification accuracy across five sleep stages: Wake (W), NREM1 (N1), NREM2 (N2), NREM3 (N3), and REM (R). High accuracy is observed in N3 (95.2%), W (92.4%), and REM (89.1%), with minimal misclassification between adjacent stages.*
 
 ## Applications
