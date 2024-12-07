@@ -54,6 +54,7 @@ This repository presents the final implementation of a Convolutional Neural Netw
   - 80% of the data was used for training, and 20% for testing.
   - Stratified splitting ensured balanced representation across all sleep stages.
 
+
 ## License
 
 This project is released under the **Creative Commons License**, allowing collaborative use and modification while maintaining attribution.
